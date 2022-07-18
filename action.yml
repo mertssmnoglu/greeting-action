@@ -1,5 +1,5 @@
 name: greeting-action
-description: A GiHhub action that you can create a greeting message for your new contributors.
+description: A GitHub action that you can create a greeting message for your new contributors.
 
 assign:
     name: Take an issue
