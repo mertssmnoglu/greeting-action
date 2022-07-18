@@ -5,11 +5,13 @@ branding:
   icon: 'thumbs-up'
   color: 'green'
 
+inputs:
+  message:
+    description: 'Comment to post on an individual''s first pull request'
+
 runs:
     name: Take an issue
     runs-on: ubuntu-latest
     steps:
     - name: take the issue
       uses: bdougie/take-action@main
-      with:
-        message: This is a test message. I hope it works.
