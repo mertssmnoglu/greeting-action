@@ -1,6 +1,10 @@
 name: greeting-action
 description: A GitHub action that you can create a greeting message for your new contributors.
 
+branding:
+  icon: 'thumbs-up'
+  color: 'green'
+
 assign:
     name: Take an issue
     runs-on: ubuntu-latest
