@@ -5,7 +5,7 @@ branding:
   icon: 'thumbs-up'
   color: 'green'
 
-assign:
+runs:
     name: Take an issue
     runs-on: ubuntu-latest
     steps:
